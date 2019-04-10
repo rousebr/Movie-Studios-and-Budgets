@@ -1,7 +1,7 @@
 ###Project to get a general visualization of movie expenditures for specific genres.
 ##An exercise in visually sorting data for presentation
 getwd()
-setwd("C:\\Users\\Brian Fury\\Documents\\R Tutorial")
+setwd("~.\\R Tutorial")
 mov <- read.csv("Movie Studio Data.csv")
 
 #Data Exploration
@@ -81,9 +81,6 @@ q <- q +
   ylab("Gross % US") + #y axis title
   ggtitle("Domestic Gross % by Genre") #plot title
 q
-
-#HINT: for the next part use ?theme if you need to 
-#refresh which parameters are responsible for what
 
 #Theme
 q <- q + 
